@@ -10,11 +10,18 @@ namespace HighCPUWebJobDotNet
 {
     public class Functions
     {
-        // This function will get triggered/executed when a new message is written 
-        // on an Azure Queue called queue.
-        public static void ProcessQueueMessage([QueueTrigger("queue")] string message, TextWriter log)
+        public static void CronJob([TimerTrigger("*/10 * * * * *")] TimerInfo timer)
         {
-            log.WriteLine(message);
+            Console.WriteLine("Cron job fired!");
+            HighCPUJob();
+        }
+
+        static void HighCPUJob()
+        {
+            string s = "s";
+            for (int i = 0; i < 100000; i++)
+                s += i.ToString();
+            Console.WriteLine(s);
         }
     }
 }
