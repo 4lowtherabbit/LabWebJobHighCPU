@@ -26,7 +26,7 @@
         "1",
         "2"
       ],
-      "defaultValue": "0"
+      "defaultValue": "Small"
     },
     "storageName": {
       "type": "string",
