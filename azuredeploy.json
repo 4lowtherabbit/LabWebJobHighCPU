@@ -14,8 +14,6 @@
     "sku": {
       "type": "string",
       "allowedValues": [
-        "Free",
-        "Shared",
         "Basic",
         "Standard"
       ],
@@ -31,7 +29,8 @@
       "defaultValue": "0"
     },
     "storageName": {
-      "type": "string"
+      "type": "string",
+      "defaultValue": "storageofthelab"
     },
     "repoUrl": {
       "type": "string"
