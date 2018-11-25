@@ -31,8 +31,7 @@
       "defaultValue": "0"
     },
     "storageName": {
-      "type": "string",
-      "defaultValue": "storageofthelab"
+      "type": "string"
     },
     "repoUrl": {
       "type": "string"
