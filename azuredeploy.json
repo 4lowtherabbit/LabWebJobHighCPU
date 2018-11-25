@@ -11,23 +11,6 @@
     "siteLocation": {
       "type": "string"
     },
-    "sku": {
-      "type": "string",
-      "allowedValues": [
-        "Basic",
-        "Standard"
-      ],
-      "defaultValue": "Standard"
-    },
-    "workerSize": {
-      "type": "string",
-      "allowedValues": [
-        "0",
-        "1",
-        "2"
-      ],
-      "defaultValue": "Small"
-    },
     "storageName": {
       "type": "string",
       "defaultValue": "storageofthelab"
@@ -47,8 +30,8 @@
       "location": "[parameters('siteLocation')]",
       "properties": {
         "name": "[parameters('hostingPlanName')]",
-        "sku": "[parameters('sku')]",
-        "workerSize": "[parameters('workerSize')]",
+        "sku": "Standard",
+        "workerSize": "0",
         "numberOfWorkers": 1
       }
     },
