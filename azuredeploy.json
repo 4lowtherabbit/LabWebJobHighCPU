@@ -19,7 +19,7 @@
         "Basic",
         "Standard"
       ],
-      "defaultValue": "Free"
+      "defaultValue": "Standard"
     },
     "workerSize": {
       "type": "string",
@@ -32,7 +32,7 @@
     },
     "storageName": {
       "type": "string",
-      "defaultValue": "StorageOfTheLab"
+      "defaultValue": "storageofthelab"
     },
     "repoUrl": {
       "type": "string"
