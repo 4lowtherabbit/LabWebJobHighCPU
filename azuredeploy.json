@@ -31,8 +31,8 @@
       "properties": {
         "name": "[parameters('hostingPlanName')]",
         "sku": "Standard",
-        "workerSize": "0",
-        "numberOfWorkers": 1
+        "workerSize": "1",
+        "numberOfWorkers": 2
       }
     },
     {
