@@ -56,7 +56,7 @@
                 "name": "AzureWebJobsStorage",
                 "value": "[concat('DefaultEndpointsProtocol=https;AccountName=',parameters('storageName'),';AccountKey=',listKeys(resourceId('Microsoft.Storage/storageAccounts', parameters('storageName')), '2015-05-01-preview').key1)]"
               }
-            ],
+            ]
           }
         },
         {
