@@ -8,7 +8,7 @@
     "workerSize": "0",
     "repoURL": "https://github.com/4lowtherabbit/LabCrashFromBackground.git",
     "branch": "master",
-    "storageName": "[concat(toLower(variables('hostingPlanName')), uniqueString(resourceGroup().id))]",
+    "storageName": "[concat(toLower(variables('hostingPlanName')), uniqueString(resourceGroup().id))]"
   }
   "resources": [
     {
