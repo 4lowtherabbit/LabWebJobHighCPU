@@ -6,7 +6,7 @@
     "siteName": "[concat(toLower(variables('hostingPlanName')), uniqueString(resourceGroup().id))]",
     "sku": "s1",
     "workerSize": "0",
-    "repoURL": "https://github.com/4lowtherabbit/LabCrashFromBackground.git",
+    "repoURL": "https://github.com/4lowtherabbit/LabWebJobHighCPU.git",
     "branch": "master",
     "storageName": "[concat(toLower(variables('hostingPlanName')), uniqueString(resourceGroup().id))]"
   },
